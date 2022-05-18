@@ -9,17 +9,17 @@ const MatomoDialog = (props) => {
   const [visible, setVisible] = useState<boolean>(props.hide)
 
   const message = () => {
-    return (<><p>An Opt-in version of <a href="https://matomo.org" target="_blank" rel="noreferrer">Matomo</a>, an open source data analytics platform is being used to improve Remix IDE.</p>
+    return (<><p>An Opt-in version of <a href="https://matomo.org" target="_blank" rel="noreferrer">Matomo</a>, an open source data analytics platform is being used to improve XIDE.</p>
       <p>We realize that our users have sensitive information in their code and that their privacy - your privacy - must be protected.</p>
       <p>All data collected through Matomo is stored on our own server - no data is ever given to third parties.  Our analytics reports are public: <a href="https://matomo.ethereum.org/index.php?module=MultiSites&action=index&idSite=23&period=day&date=yesterday" target="_blank" rel="noreferrer">take a look</a>.</p>
       <p>We do not collect nor store any personally identifiable information (PII).</p>
-      <p>For more info, see: <a href="https://medium.com/p/66ef69e14931/" target="_blank" rel="noreferrer">Matomo Analyitcs on Remix iDE</a>.</p>
+      <p>For more info, see: <a href="https://medium.com/p/66ef69e14931/" target="_blank" rel="noreferrer">Matomo Analyitcs on XIDE</a>.</p>
       <p>You can change your choice in the Settings panel anytime.</p></>)
   }
 
   useEffect(() => {
     if (visible && showMatamo) {
-      modal({ id: 'matomoModal', title: 'Help us to improve Remix IDE', message: message(), okLabel: 'Accept', okFn: handleModalOkClick, cancelLabel: 'Decline', cancelFn: declineModal })
+      modal({ id: 'matomoModal', title: 'Help us to improve XIDE', message: message(), okLabel: 'Accept', okFn: handleModalOkClick, cancelLabel: 'Decline', cancelFn: declineModal })
     }
   }, [visible])
 

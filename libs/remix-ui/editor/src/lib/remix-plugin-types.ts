@@ -784,13 +784,13 @@ declare module 'dist/packages/api/lib/git/index' {
 
 }
 declare module 'dist/packages/api/lib/network/type' {
-	/** @deprecated: current version in Remix IDE. To improve to match standard JSON RPC methods */
+	/** @deprecated: current version in XIDE. To improve to match standard JSON RPC methods */
 	export interface CustomNetwork {
 	    id?: string;
 	    name: string;
 	    url: string;
 	}
-	/** @deprecated: current version in Remix IDE. To improve to match standard JSON RPC methods */
+	/** @deprecated: current version in XIDE. To improve to match standard JSON RPC methods */
 	export type NetworkProvider = 'vm' | 'injected' | 'web3';
 	export type Network = {
 	    id: '1';
@@ -816,7 +816,7 @@ declare module 'dist/packages/api/lib/network/type' {
 declare module 'dist/packages/api/lib/network/api' {
 	import { StatusEvents } from '@remixproject/plugin-utils';
 	import { NetworkProvider, Network, CustomNetwork } from 'dist/packages/api/lib/network/type';
-	/** @deprecated: current version in Remix IDE. To improve to match standard JSON RPC methods */
+	/** @deprecated: current version in XIDE. To improve to match standard JSON RPC methods */
 	export interface INetwork {
 	    events: {
 	        providerChanged: (provider: NetworkProvider) => void;
@@ -2305,13 +2305,13 @@ declare module 'packages/api/src/lib/git/index' {
 
 }
 declare module 'packages/api/src/lib/network/type' {
-	/** @deprecated: current version in Remix IDE. To improve to match standard JSON RPC methods */
+	/** @deprecated: current version in XIDE. To improve to match standard JSON RPC methods */
 	export interface CustomNetwork {
 	    id?: string;
 	    name: string;
 	    url: string;
 	}
-	/** @deprecated: current version in Remix IDE. To improve to match standard JSON RPC methods */
+	/** @deprecated: current version in XIDE. To improve to match standard JSON RPC methods */
 	export type NetworkProvider = 'vm' | 'injected' | 'web3';
 	export type Network = {
 	    id: '1';
@@ -2337,7 +2337,7 @@ declare module 'packages/api/src/lib/network/type' {
 declare module 'packages/api/src/lib/network/api' {
 	import { StatusEvents } from '@remixproject/plugin-utils';
 	import { NetworkProvider, Network, CustomNetwork } from 'packages/api/src/lib/network/type';
-	/** @deprecated: current version in Remix IDE. To improve to match standard JSON RPC methods */
+	/** @deprecated: current version in XIDE. To improve to match standard JSON RPC methods */
 	export interface INetwork {
 	    events: {
 	        providerChanged: (provider: NetworkProvider) => void;

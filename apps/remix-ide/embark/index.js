@@ -27,15 +27,15 @@ module.exports = (embark) => {
       root: path.join(__dirname, '../../node_modules/remix-ide')
     })
     server.listen(port, '127.0.0.1', function () {
-      embark.logger.info('Remix IDE (via embark-remix plugin) available at ' + colors.underline(remixIdeUrl))
+      embark.logger.info('XIDE (via embark-remix plugin) available at ' + colors.underline(remixIdeUrl))
     })
   } else {
-    embark.logger.info('embark-remix is set to connect to a Remix IDE at ' + colors.underline(remixIdeUrl))
+    embark.logger.info('embark-remix is set to connect to a XIDE at ' + colors.underline(remixIdeUrl))
   }
 
   // setup Embark service check
-  embark.registerServiceCheck('Remix IDE', (cb) => {
-    return cb({ name: `Remix IDE ${host}:${port}`, status: 'on' })
+  embark.registerServiceCheck('XIDE', (cb) => {
+    return cb({ name: `XIDE ${host}:${port}`, status: 'on' })
   })
 
   // setup remixd shared folder service

@@ -6,7 +6,7 @@ This document includes:
  - how to update remix.ethereum.org
  - how to update remix-alpha.ethereum.org
  - how to update remix-beta.ethereum.org
- - how to release remix IDE
+ - how to release XIDE
 
 ## RemixD release
  - update new version number in remixd libs/remixd/package.json
@@ -23,7 +23,7 @@ This document includes:
  - npm run publish:libs (this command uses lerna)
  - commit
 
-## Remix IDE release Part 1. First push master to beta. Feature Freeze
+## XIDE release Part 1. First push master to beta. Feature Freeze
  - git co -b remix_beta origin/remix_beta
  - git reset --hard -master-commit-hash-
  - git push -f origin remix_beta
@@ -31,7 +31,7 @@ This document includes:
 ## Testing phase
 ## In case of fixing bugs push PR's also to beta to include in Release
  
-## Remix IDE release Part 2. Bump the version in beta and release
+## XIDE release Part 2. Bump the version in beta and release
 
  - git fetch origin remix_beta
  - git checkout origin/remix_beta
@@ -46,7 +46,7 @@ This document includes:
  - github-changes -o ethereum -r remix-project -a --only-pulls --use-commit-body --branch remix_beta --only-merges --between-tags previous_version...next_version
  - publish a release in github using the changelog
  
-## Remix IDE release Part 3. Bump dev branch (master)
+## XIDE release Part 3. Bump dev branch (master)
 
  - git fetch origin master
  - git checkout origin/master
@@ -55,7 +55,7 @@ This document includes:
  - update version in package-lock.json
  - create a PR and merge it to origin/master
  
-## Remix IDE release Part 4. remix.ethereum.org update
+## XIDE release Part 4. remix.ethereum.org update
 
 This is not strictly speaking a release. Updating the remix site is done through the Travis build:
 
@@ -65,7 +65,7 @@ This is not strictly speaking a release. Updating the remix site is done through
 
  CircleCI will build automaticaly and remix.ethereum.org will be updated
 
-##  Remix IDE release Part 5. Update Zip in release
+##  XIDE release Part 5. Update Zip in release
  - after remix_live is updated, drop the zip (from https://github.com/ethereum/remix-live/) to the release.
  
 ## Remix-ide beta release

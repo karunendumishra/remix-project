@@ -15,13 +15,13 @@ Or just install it in the directory of your choice by removing the -g flag:
 
 Then from the terminal, the command `remixd -s <absolute-path-to-the-shared-folder> --remix-ide <your-remix-ide-URL-instance>` will start `remixd` and will share the given folder with remix-ide. 
 
-For example, to use remixd with Remix IDE ( and not the alpha version) use this command: 
+For example, to use remixd with XIDE ( and not the alpha version) use this command: 
 `remixd -s <absolute-path-to-the-shared-folder> --remix-ide https://remix.ethereum.org`
 
 Make sure that if you use https://remix.ethereum.org (secure http) in the remixd command (like in the example above), that you are also pointing your browser to https://remix.ethereum.org and not to http://remix.ethereum.org (plain old insecure http).  Or if you want to use http in the browser use http in the remixd command.
 
 
-The folder is shared using a websocket connection between `Remix IDE`
+The folder is shared using a websocket connection between `XIDE`
 and `remixd`.
 
 Be sure the user executing `remixd` has read/write permission on the
@@ -34,7 +34,7 @@ There is an option to run remixd in read-only mode, use `--read-only` flag.
 `remixd` provides `full read and write access` to the given folder for `any
 application` that can access the `TCP port 65520` on your local host.
 
-From `Remix IDE`, in the Plugin Manager you need to activate the remixd plugin.  
+From `XIDE`, in the Plugin Manager you need to activate the remixd plugin.  
 
 A modal dialog will ask confirmation
 

@@ -8,7 +8,7 @@ To try it out, visit [https://remix.ethereum.org](https://remix.ethereum.org).
 
 https://github.com/ethereum/remix-ide/releases also gives others ways to use Remix locally. Please check it out.
 
-Remix consists of many modules and in this repository you will find the Remix IDE (aka. Browser-Solidity).
+Remix consists of many modules and in this repository you will find the XIDE (aka. Browser-Solidity).
 
 ![Remix screenshot](https://github.com/ethereum/remix-ide/raw/master/remix_screenshot.png)
 
@@ -123,7 +123,7 @@ Running unit tests via `npm test` requires at least node v7.0.0
 
 To run the Selenium tests via Nightwatch:
 
- - Build Remix IDE and serve it: `npm run build && npm run serve` # starts web server at localhost:8080
+ - Build XIDE and serve it: `npm run build && npm run serve` # starts web server at localhost:8080
  - Make sure Selenium is installed `npm run selenium-install` # don't need to repeat
  - Run a selenium server `npm run selenium`
  - Run all the tests `npm run nightwatch_local_firefox` or `npm run nightwatch_local_chrome`

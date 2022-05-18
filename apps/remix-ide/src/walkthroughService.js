@@ -24,7 +24,7 @@ export class WalkthroughService extends Plugin {
     if (!localStorage.getItem('hadTour_initial')) {
       introJs().setOptions({
         steps: [{
-          title: 'Welcome to Remix IDE',
+          title: 'Welcome to XIDE',
           intro: 'Click to launch the Home tab that contains links, tips, and shortcuts..',
           element: document.querySelector('#verticalIconsHomeIcon'),
           tooltipClass: 'bg-light text-dark',

@@ -146,7 +146,7 @@ export const RemixUiSettings = (props: RemixUiSettingsProps) => {
             <input onChange={onchangeMatomoAnalytics} id="settingsMatomoAnalytics" type="checkbox" className="custom-control-input" checked={ isMatomoChecked }/>
             <label className={`form-check-label custom-control-label align-middle ${getTextClass('settings/matomo-analytics')}`} htmlFor="settingsMatomoAnalytics">
               <span>{matomoAnalytics}</span>
-              <a href="https://medium.com/p/66ef69e14931/" target="_blank"> Analytics in Remix IDE</a> <span>&</span> <a target="_blank" href="https://matomo.org/free-software">Matomo</a>
+              <a href="https://medium.com/p/66ef69e14931/" target="_blank"> Analytics in XIDE</a> <span>&</span> <a target="_blank" href="https://matomo.org/free-software">Matomo</a>
             </label>
           </div>
         </div>

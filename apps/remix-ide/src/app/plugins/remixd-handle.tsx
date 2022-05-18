@@ -138,7 +138,7 @@ function remixdDialog () {
   return (<>
     <div className=''>
       <div className='mb-2 text-break'>
-        Access your local file system from Remix IDE using <a target="_blank" href="https://www.npmjs.com/package/@remix-project/remixd">Remixd NPM package</a>.<br/><br/>
+        Access your local file system from XIDE using <a target="_blank" href="https://www.npmjs.com/package/@remix-project/remixd">Remixd NPM package</a>.<br/><br/>
         Remixd needs to be running in the background to load the files in localhost workspace. For more info, please check the <a target="_blank" href="https://remix-ide.readthedocs.io/en/latest/remixd.html">Remixd tutorial</a>.
       </div>
       <div className='mb-2 text-break'>

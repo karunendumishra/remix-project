@@ -27,7 +27,7 @@ There are tutorials for specific remix functionalities like:
 ***Other***
 
     EtherAtom (walkthrough slides + screencast)
-    Debugging transactions with Remix IDE
+    Debugging transactions with XIDE
     Recording and replaying transactions
     Using a Pipeline plugin for developing Solidity contracts with demo video
     Running scripts in the Remix terminal (batch deployment) (proxy deployment)

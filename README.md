@@ -9,9 +9,9 @@
 
 # Remix Project
 
-**Remix Project** is a platform for development tools that use a plugin architecture. It encompasses sub-projects including Remix Plugin Engine, Remix Libraries, and of course Remix IDE.
+**Remix Project** is a platform for development tools that use a plugin architecture. It encompasses sub-projects including Remix Plugin Engine, Remix Libraries, and of course XIDE.
 
-**Remix IDE** is an open source web and desktop application. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. Remix is used for the **entire journey of contract development with [Solidity language](https://soliditylang.org/)** as well as a playground for learning and teaching [Ethereum](https://ethereum.org/).
+**XIDE** is an open source web and desktop application. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. Remix is used for the **entire journey of contract development with [Solidity language](https://soliditylang.org/)** as well as a playground for learning and teaching [Ethereum](https://ethereum.org/).
 
 Start developing using Remix on browser, visit: [https://remix.ethereum.org](https://remix.ethereum.org)
 
@@ -19,7 +19,7 @@ For desktop version, see releases: [https://github.com/ethereum/remix-desktop/re
 
 ![Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix_screenshot.png)
 
-:point_right: **Remix libraries** work as a core of native plugins of Remix IDE. Read more about libraries [here](libs/README.md)
+:point_right: **Remix libraries** work as a core of native plugins of XIDE. Read more about libraries [here](libs/README.md)
 
 ## Offline Usage
 
@@ -56,7 +56,7 @@ nx build
 nx serve
 ```
 
-Open `http://127.0.0.1:8080` in your browser to load Remix IDE locally.
+Open `http://127.0.0.1:8080` in your browser to load XIDE locally.
 
 Go to your `text editor` and start developing. Browser will automatically refresh when files are saved.
 

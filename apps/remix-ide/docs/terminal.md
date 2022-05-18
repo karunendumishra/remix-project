@@ -14,7 +14,7 @@ Features, available in the terminal:
 -   It displays transactions that are mined in the current context. You
     can choose to display all transactions or only transactions that
     refers to the contracts Remix knows (e.g transaction created from
-    the Remix IDE).
+    the XIDE).
 -   It allows searching for the data and clearing the logs from the
     terminal.
 -   You can run scripts by inputting them at the bottom after the `>`.

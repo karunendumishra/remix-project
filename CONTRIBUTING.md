@@ -3,9 +3,9 @@
 Everyone is very welcome to contribute on the codebase of Remix. Please reach us in [Gitter](https://gitter.im/ethereum/remix) in case of any queries.
 
 ## Development
-Remix libraries work closely with [Remix IDE](https://remix.ethereum.org). Each library has a readme to explain its application.
+Remix libraries work closely with [XIDE](https://remix.ethereum.org). Each library has a readme to explain its application.
 
-When you add a code in any library, please ensure you add related tests. You can visit [here](https://github.com/ethereum/remix-ide#installation) to test your changes by linking the remix libraries with Remix IDE.
+When you add a code in any library, please ensure you add related tests. You can visit [here](https://github.com/ethereum/remix-ide#installation) to test your changes by linking the remix libraries with XIDE.
 
 ## Coding style
 

@@ -3,7 +3,7 @@ Solidity Static Analysis
 
 Static code analysis is a process to debug the code by examining it and without actually executing the code. 
 
-`Solidity Static Analysis` plugin performs static analysis on Solidity smart contracts once they are compiled. It checks for security vulnerabilities and bad development practices, among other issues. This plugin comes with `Solidity` environment of Remix IDE. It can also be activated individually from `Plugin Manager`.
+`Solidity Static Analysis` plugin performs static analysis on Solidity smart contracts once they are compiled. It checks for security vulnerabilities and bad development practices, among other issues. This plugin comes with `Solidity` environment of XIDE. It can also be activated individually from `Plugin Manager`.
 
 How to use
 ------------
@@ -20,7 +20,7 @@ If you don't want to run analysis each time you compile a contract, just uncheck
 
 Analysis Modules
 -----------------
-Currently, with Remix IDE v0.10.1, there are 21 analysis modules listed under 4 categories. Categories are: `Security`, `Gas & Economy`, `ERC` & `Miscellaneous`.
+Currently, with XIDE v0.10.1, there are 21 analysis modules listed under 4 categories. Categories are: `Security`, `Gas & Economy`, `ERC` & `Miscellaneous`.
 
 Here is the list of modules under each category along with the example code which **should be avoided or used very carefully while development**:
 

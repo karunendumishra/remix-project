@@ -18,4 +18,4 @@ var router = new remixd.Router(65520, remixd.services.sharedFolder, { remixIdeUr
 
 router.start()
 
-console.log('\x1b[33m%s\x1b[0m', 'Starting Remix IDE at http://localhost:8080 and sharing ' + folder)
+console.log('\x1b[33m%s\x1b[0m', 'Starting XIDE at http://localhost:8080 and sharing ' + folder)

@@ -12,7 +12,7 @@ export default class staticAnalysisRunner {
   /**
    * Run analysis (Used by IDE)
    * @param compilationResult contract compilation result
-   * @param toRun module indexes (compiled from remix IDE)
+   * @param toRun module indexes (compiled from XIDE)
    * @param callback callback
    */
   run (compilationResult: CompilationResult, toRun: number[]): AnalysisReport[] {

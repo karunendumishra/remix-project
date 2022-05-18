@@ -1,9 +1,9 @@
 # Remixd
 
-`remixd` is a tool that intend to be used with [Remix IDE](https://github.com/ethereum/remix-project) (aka. Browser-Solidity). It allows a websocket connection between
-`Remix IDE` (web application) and the local computer.
+`remixd` is a tool that intend to be used with [XIDE](https://github.com/ethereum/remix-project) (aka. Browser-Solidity). It allows a websocket connection between
+`XIDE` (web application) and the local computer.
 
-Practically Remix IDE makes available a folder shared by `remixd`.
+Practically XIDE makes available a folder shared by `remixd`.
 
 More details are explained in this [tutorial](https://remix-ide.readthedocs.io/en/latest/remixd.html).
 
@@ -28,12 +28,12 @@ If you were using the old one you need to:
 ```
 Usage: remixd -s <shared folder>
 
-Provide a two-way connection between the local computer and Remix IDE
+Provide a two-way connection between the local computer and XIDE
 
 Options:
   -v, --version               output the version number
   -u, --remix-ide  <url>      URL of remix instance allowed to connect to this web sockect connection
-  -s, --shared-folder <path>  Folder to share with Remix IDE
+  -s, --shared-folder <path>  Folder to share with XIDE
   -r, --read-only             Treat shared folder as read-only (experimental)
   -h, --help                  output usage information
 
@@ -49,11 +49,11 @@ Example:
 
 The current user should have `read/write` access to the folder (at least `read` access).
 
-It is important to notice that changes made to the current file in `Remix IDE` are automatically saved to the local computer every 5000 ms. There is no `Save` action. But the `Ctrl-Z` (undo) can be used.
+It is important to notice that changes made to the current file in `XIDE` are automatically saved to the local computer every 5000 ms. There is no `Save` action. But the `Ctrl-Z` (undo) can be used.
 
 Furthermore :
  - No copy of the shared folder are kept in the browser storage.
- - It is not possible to create a file from `Remix IDE` (that might change).
+ - It is not possible to create a file from `XIDE` (that might change).
  - If a folder does not contain any file, the folder will not be displayed in the explorer (that might change).
- - Symbolic links are not forwarded to Remix IDE.
+ - Symbolic links are not forwarded to XIDE.
  

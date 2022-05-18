@@ -100,7 +100,7 @@ export const listenOnProviderEvents = (provider) => (reducerDispatch: React.Disp
       if (provider.isReadOnly(path)) return editor.setText(content)
       dispatch(displayNotification(
         path + ' changed',
-        'This file has been changed outside of Remix IDE.',
+        'This file has been changed outside of XIDE.',
         'Replace by the new content', 'Keep the content displayed in Remix',
         () => {
           editor.setText(content)

@@ -13,7 +13,7 @@ Go to the plugin manager (by click the ![plug](images/a-plug.png) icon) and load
 
 Now `double check` icon will appear on the left side icon bar. Clicking on icon will load the unit testing module in the side panel.
 
-Alternatively, just select `Solidity` environment from remix IDE home page. This will activate `Solidity Unit Testing` plugin along with `Solidity Compiler`, `Deploy & Run Transactions` & `Solidity Static Analysis` plugins.
+Alternatively, just select `Solidity` environment from XIDE home page. This will activate `Solidity Unit Testing` plugin along with `Solidity Compiler`, `Deploy & Run Transactions` & `Solidity Static Analysis` plugins.
 
 ![](images/a-unit-testing-feature.png)
 

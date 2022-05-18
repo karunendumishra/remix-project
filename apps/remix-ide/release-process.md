@@ -1,9 +1,9 @@
 This document includes:
  - how to update remix.ethereum.org.
  - how to update remix-alpha.ethereum.org.
- - how to release remix IDE.
+ - how to release XIDE.
 
-# remix IDE release
+# XIDE release
 
  - git fetch origin master
  - git checkout origin/master

@@ -61,9 +61,9 @@ function errorHandler (error: any, service: string) {
 
   program
     .usage('-s <shared folder>')
-    .description('Provide a two-way connection between the local computer and Remix IDE')
+    .description('Provide a two-way connection between the local computer and XIDE')
     .option('-u, --remix-ide  <url>', 'URL of remix instance allowed to connect to this web sockect connection')
-    .option('-s, --shared-folder <path>', 'Folder to share with Remix IDE')
+    .option('-s, --shared-folder <path>', 'Folder to share with XIDE')
     .option('-r, --read-only', 'Treat shared folder as read-only (experimental)')
     .on('--help', function () {
       console.log('\nExample:\n\n    remixd -s ./ -u http://localhost:8080')
@@ -87,7 +87,7 @@ function errorHandler (error: any, service: string) {
 
   if (program.sharedFolder && existsSync(absolutePath('./', program.sharedFolder))) {
     console.log('\x1b[33m%s\x1b[0m', '[WARN] Any application that runs on your computer can potentially read from and write to all files in the directory.')
-    console.log('\x1b[33m%s\x1b[0m', '[WARN] Symbolic links are not forwarded to Remix IDE\n')
+    console.log('\x1b[33m%s\x1b[0m', '[WARN] Symbolic links are not forwarded to XIDE\n')
     try {
       startService('folder', (ws: WS, sharedFolderClient: servicesList.Sharedfolder, error: any) => {
         if (error) {

@@ -225,7 +225,7 @@ export const RemixUiHomeTab = (props: RemixUiHomeTabProps) => {
         <div className="border-bottom d-flex flex-column mr-4 pb-3 mb-3">
           <div className="d-flex justify-content-between ">
             <div className="mx-4 my-4 d-flex">
-              <label style={ { fontSize: 'xxx-large', height: 'auto', alignSelf: 'flex-end' } }>Remix IDE</label>
+              <label style={ { fontSize: 'xxx-large', height: 'auto', alignSelf: 'flex-end' } }>XIDE</label>
             </div>
             <div className="mr-4 d-flex">
               <img className="mt-4 mb-2 remixui_home_logoImg" src="assets/img/guitarRemiCroped.webp" onClick={ () => playRemi() } alt=""></img>

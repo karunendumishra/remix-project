@@ -25,7 +25,7 @@ There is a plugin called `Flattener` which will stuff all the original code and 
 
 ### Deploy & Run
 
-**Q:** I am using an Infura endpoint in my app, but when I try to deploy against that endpoint in remix IDE selecting "web3 provider" and putting my endpoint in, it's telling me that it can't connect
+**Q:** I am using an Infura endpoint in my app, but when I try to deploy against that endpoint in XIDE selecting "web3 provider" and putting my endpoint in, it's telling me that it can't connect
 
 **A:** If the endpoint you are using is http, it won't work.
 
