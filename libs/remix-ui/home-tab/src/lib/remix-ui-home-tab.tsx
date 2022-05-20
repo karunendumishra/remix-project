@@ -227,7 +227,7 @@ export const RemixUiHomeTab = (props: RemixUiHomeTabProps) => {
             <div className="mx-4 my-4 d-flex">
               <label style={ { fontSize: 'xxx-large', height: 'auto', alignSelf: 'flex-end' } }>XIDE</label>
             </div>
-            <div className="mr-4 d-flex">
+            {/* <div className="mr-4 d-flex">
               <img className="mt-4 mb-2 remixui_home_logoImg" src="assets/img/guitarRemiCroped.webp" onClick={ () => playRemi() } alt=""></img>
               <audio
                 id="remiAudio"
@@ -235,15 +235,15 @@ export const RemixUiHomeTab = (props: RemixUiHomeTabProps) => {
                 src="assets/audio/remiGuitar-single-power-chord-A-minor.wav"
                 ref={remiAudioEl}
               ></audio>
-            </div>
+            </div> */}
           </div>
-          <div>
+          {/* <div>
             <i className="pl-4 text-danger fas fa-exclamation-triangle"></i>
             <span className="px-2 remixui_home_text text-danger mt-4 pt-4">
               Scam Alert: Beware of online videos promoting "liquidity front runner bots".
             </span>
             <a className="remixui_home_text" target="__blank" href="https://medium.com/remix-ide/remix-in-youtube-crypto-scams-71c338da32d">Learn more</a>
-          </div>
+          </div> */}
         </div>
         <div className="row mx-2 mr-4" data-id="landingPageHpSections">
           <div className="ml-3">
@@ -294,23 +294,23 @@ export const RemixUiHomeTab = (props: RemixUiHomeTabProps) => {
                 <h4>Resources</h4>
                 <p className="mb-1">
                   <i className="mr-2 fas fa-book"></i>
-                  <a className="remixui_home_text" target="__blank" href="https://remix-ide.readthedocs.io/en/latest/#">Documentation</a>
+                  <a className="remixui_home_text" target="__blank" href="https://docs.xide.work/">Documentation</a>
                 </p>
-                <p className="mb-1">
+                {/* <p className="mb-1">
                   <i className="mr-2 fab fa-gitter"></i>
                   <a className="remixui_home_text" target="__blank" href="https://gitter.im/ethereum/remix">Gitter channel</a>
-                </p>
-                <p className="mb-1">
+                </p> */}
+                {/* <p className="mb-1">
                   <img id='remixHhomeWebsite' className="mr-2 remixui_home_image" src={ plugin.profile.icon } style={ { filter: state.themeQuality.filter } } alt=''></img>
                   <a className="remixui_home_text" target="__blank" href="https://remix-project.org">Featuring website</a>
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
         </div>
         <div className="d-flex flex-column remixui_home_rightPanel">
           <div className="d-flex pr-3 py-2 align-self-end" id="remixIDEMediaPanelsTitle">
-            <button
+            {/* <button
               className="btn-info p-2 m-1 border rounded-circle remixui_home_mediaBadge fab fa-twitter"
               id="remixIDEHomeTwitterbtn"
               title="Twitter"
@@ -320,8 +320,8 @@ export const RemixUiHomeTab = (props: RemixUiHomeTabProps) => {
                 })
                 _paq.push(['trackEvent', 'pluginManager', 'media', 'twitter'])
               }}
-            ></button>
-            <button
+            ></button> */}
+            {/* <button
               className="btn-danger p-2 m-1 border rounded-circle remixui_home_mediaBadge fab fa-medium"
               id="remixIDEHomeMediumbtn"
               title="Medium blogs"
@@ -331,7 +331,7 @@ export const RemixUiHomeTab = (props: RemixUiHomeTabProps) => {
                 })
                 _paq.push(['trackEvent', 'pluginManager', 'media', 'medium'])
               }}
-            ></button>
+            ></button> */}
           </div>
           <div
             className="mr-3 d-flex bg-light remixui_home_panels"

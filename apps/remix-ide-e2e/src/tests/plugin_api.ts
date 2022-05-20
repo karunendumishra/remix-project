@@ -246,7 +246,7 @@ module.exports = {
     await clickAndCheckLog(browser, 'fileManager:readdir', 'testdir', null, '/')
   },
   'Should get file #group7': async function (browser: NightwatchBrowser) {
-    await clickAndCheckLog(browser, 'fileManager:getFile', 'REMIX DEFAULT WORKSPACE', null, 'README.txt')
+    await clickAndCheckLog(browser, 'fileManager:getFile', 'XIDE DEFAULT WORKSPACE', null, 'README.txt')
   },
   'Should close all files #group7': async function (browser: NightwatchBrowser) {
     await clickAndCheckLog(browser, 'fileManager:closeAllFiles', null, { event: 'noFileSelected', args: [] }, null)
